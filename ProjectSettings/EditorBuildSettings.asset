@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Demo Example.unity
-    guid: 052b58d73b545cc4a85ac8ab2a3b670b
+    path: Assets/_SamR/Scenes/Example02_AuthenticationWithoutQR.unity
+    guid: fc7c4bd8cd5587e47bd8154590794a60
   m_configObjects: {}
