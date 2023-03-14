@@ -368,7 +368,11 @@ public class ExampleManager : IExampleManager
     public void RequestSignPayload(int signingType, string payload)
     {
         _tezos.RequestSignPayload(signingType, payload);
-        _tezos.ConnectWallet();
+        
+#if UNITY_IOS || UNITY_ANDROID
+        Application.OpenURL("temple://");
+#endif
+        // _tezos.ConnectWallet();
     }
 
     public bool VerifyPayload(string payload)
