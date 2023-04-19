@@ -28,7 +28,7 @@ blockchain, this SDK is a helpful resource for developing any Tezos decentralize
 
 ### Install from a Git URL
 
-Yoy can install the UPM package via directly Git URL. To load a package from a Git URL:
+You can install the UPM package via directly Git URL. To load a package from a Git URL:
 
 * Open [Unity Package Manager](https://docs.unity3d.com/Manual/upm-ui.html) window.
 * Click the add **+** button in the status bar.
